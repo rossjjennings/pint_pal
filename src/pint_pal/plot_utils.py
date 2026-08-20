@@ -60,7 +60,7 @@ def set_color_and_marker(colorby):
 def plot_residuals_time(
     fitter,
     restype="postfit",
-    colorby="f",
+    colorby="pta",
     plotsig=False,
     avg=False,
     whitened=False,
@@ -740,7 +740,7 @@ def plot_FD_delay(
 def plot_residuals_freq(
     fitter,
     restype="postfit",
-    colorby="f",
+    colorby="pta",
     plotsig=False,
     avg=False,
     mixed_ecorr=False,
@@ -2508,7 +2508,7 @@ def plot_measurements_v_dmres(
 def plot_residuals_orb(
     fitter,
     restype="postfit",
-    colorby="f",
+    colorby="pta",
     plotsig=False,
     avg=False,
     mixed_ecorr=False,
@@ -4844,7 +4844,7 @@ def plots_for_summary_pdf_wb(fitter, title=None, legends=False):
             plt.close()
 
 
-def plot_settings(colorby="f"):
+def plot_settings(colorby="pta"):
     """
     Initialize plot rc params, define color scheme
     """
