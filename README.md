@@ -79,6 +79,7 @@ On MacOS, use homebrew:
 ```
 brew install suite-sparse
 ```
+Note, however, that this method is not well tested on MacOS and will likely only work on older Intel Macs. For Apple Silicon Macs, we recommend working inside a `linux/arm64` container, e.g., [nanograv/ng20](https://hub.docker.com/r/nanograv/ng20)
 
 Then, create a new virtual environment and install PINT Pal.
 
